@@ -11,6 +11,7 @@ export default function Shoe({ color, ...props }) {
         receiveShadow
         geometry={nodes.shoe.geometry}
         material={materials.laces}
+        material-envMapIntensity={0.8}
       />
       <mesh castShadow receiveShadow geometry={nodes.shoe_1.geometry}>
         <meshStandardMaterial
